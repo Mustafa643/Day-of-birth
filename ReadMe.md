@@ -1,3 +1,3 @@
 # AKHAN NAME
 
-## It is modern sysytem that generates Akhan namwes
+## It is modern sysytem that generates Akhan names
