@@ -1,3 +1,15 @@
 body{
     background-image: linear-gradient(blue,yellow);
 }
+.btn{
+    background-color: aqua;
+}
+label{
+    color: red;
+}
+.input{
+    color: blue;
+}
+.head{
+    color: blue;
+}
