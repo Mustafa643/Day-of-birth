@@ -20,9 +20,9 @@ function myfunction() {
 
     var DayOfCentury = parseInt(DateOfBirth.toString().slice(0, 2));
 
-    var DayofBirth = parseInt(YearOfBirth.toString().slice(2, 4));
+    var DayofBirth = parseInt(YearOfBirth.value.slice(2, 4));
 
-    var Dayoftheweek = parseInt(((DayOfCentury / 4) - 2 * DayOfCentury - 1) + ((5 * YearOfBirth / 4)) + ((26 * (YearOfBirth + 1) / 10))) % 7;
+    var Dayoftheweek = parseInt(((DayOfCentury / 4) - 2 * DayOfCentury - 1) + ((5 * DayofBirth / 4)) + ((26 * (MonthOfBirth + 1) / 10)) + DateOfBirth) % 7;
     
     var Mname = maleName[Dayoftheweek-1];
     var Day = Days[Dayoftheweek - 1];
